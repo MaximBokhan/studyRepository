@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOP_KR</title>
+</head>
+<body>
+    
+<script>
+
+// var obj = {name: 'Vasya', name1: 'Piotr', name2: 'Alex', name3: 'Piotr', name4: 'Alex'};
+// var temp={};
+
+// function change(input){
+    // создаем объект с повторяющимися именами
+    // for (var key in input){
+    //   if(input[key] in temp){
+    //       temp[input[key]]++;
+    //   }  else{
+    //       temp[input[key]]=1;
+    //     }
+    // }
+
+    // for (var key in temp){
+    //     if(temp[key]===1){
+    //         delete temp[key];
+    //     }
+    // }
+
+    // меняем ключи и значения
+//     for (var key in input){
+//         input[key+'_length']=input[key].length;
+//         delete input[key];
+//     }
+
+// input['Duplicate values']=temp;
+// return input;
+
+// }
+// console.log(change(obj));
+
+
+
+// 2-ая задача
+// function isRomantic(gender) {
+//     return (gender==='Мужской' || gender!=='Женский' && gender!=undefined && gender!=='Неизвестно')?
+//         false: (gender===undefined || gender==='Неизвестно')? alert('Неизвестно'): true;
+// }
+
+// console.log(isRomantic('Женский'));
+
+
+
+
+var arr=[1, 2, 25, -1, -2, 1];
+var newArr=[];
+var counter =0;
+
+function getNewArr(x){
+    for(var i=0; i<x.length; i++){
+        if (x[i]>0){
+            newArr[counter]=x[i];
+            counter++;
+        }
+
+    // }
+
+    // for(var i=0; i<newArr.length; i++){
+    //     if (newArr[i]===undefined){
+    //         newArr[i]=newArr[i+1];
+    //         delete newArr[i+1];
+    //     }
+
+    }
+    return newArr;
+
+}
+console.log(getNewArr(arr));
+
+</script>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
