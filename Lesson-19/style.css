@@ -1,0 +1,6 @@
+.timer-container{
+    display: flex;
+}
+.timer-container-none, .buttton-container-none{
+    display: none;
+}
